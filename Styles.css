@@ -102,21 +102,17 @@ li {
 }
 
 .nav-link {
-  color: #99804e
+  color: #99804e;
 }
 
 .nav-link:hover {
   color: #fdfcf9;
 }
 
-
-  
-
-
 .banner {
   background-color: #000;
   color: #fff;
- 
+
   padding-bottom: 50px;
 }
 
