@@ -1,6 +1,7 @@
 /* estilos navbar */
 .logo1 {
-  width: 80px;
+  width: 90px;
+  height: auto;
 }
 
 .navbar {
@@ -17,18 +18,18 @@
 }
 
 .nav-link {
-  color: #fff;
+  color: #99804e
 }
 
 .nav-link:hover {
-  color: #99804e;
+  color: #fdfcf9;
 }
 
 /* estilos banner */
 .banner {
   background-color: #000;
   color: #fff;
-  padding-top: 50px;
+ 
   padding-bottom: 50px;
 }
 
