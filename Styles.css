@@ -6,6 +6,7 @@
 
 .navbar {
   background-color: #02152b;
+  
 }
 
 .nav-item {
@@ -29,46 +30,53 @@
 .banner {
   background-color: #000;
   color: #fff;
-
-  padding-bottom: 50px;
+  width: 100%;
 }
-
-img {
+.img {
   opacity: 0.5px;
+ 
+}
+.title-banner{  
+  padding: 150px;
+  height: 20px;
+  text-align: bolder;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 280px;
+  
 }
 
-.title-banner {
-  text-align: center;
-  font-size: 40px;
+.line{
+  font-size: 20px;
   font-weight: bold;
-  align-items: center;
-  margin-top: 250px;
+  color: #d4af37;
+  height: 12px;
+  
 }
 
 .btn1 {
   background-color: #d4af37;
-  color: #000;
+  color: #090b0c;
   text-decoration: none;
-  padding: 13px;
-  border-radius: 6px;
+  padding: 12px;
+  margin: 5px;
+  border-radius: 8px;
   font-weight: bold;
+
 }
 
 .btn1:hover {
   background-color: #f6bd00;
+  color:#02152b;
+ 
 }
 
 .column-container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 40px;
-}
-
-.line {
-  font-size: 25px;
-  font-weight: bold;
-  color: #d4af37;
+  margin: 0%px;
+  
 }
 
 .text-sm {
