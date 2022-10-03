@@ -37,31 +37,34 @@
  
 }
 .title-banner{  
-  padding: 150px;
-  height: 20px;
+  padding: 130px;
+  height: 5px;
   text-align: bolder;
   font-size: 50px;
   font-weight: bolder;
-  margin-top: 280px;
+  margin-top: 270px;
   
 }
 
-.line{
-  font-size: 20px;
+.line{  font-size: 20px;
   font-weight: bold;
   color: #d4af37;
   height: 12px;
+  margin-top: 10px;
   
 }
+
+
 
 .btn1 {
   background-color: #d4af37;
   color: #090b0c;
-  text-decoration: none;
-  padding: 12px;
-  margin: 5px;
-  border-radius: 8px;
+  text-decoration:none;
+  padding: 18px;
+  margin: 0px;
+  border-radius: 6px;
   font-weight: bold;
+  margin: bottom 10px;
 
 }
 
