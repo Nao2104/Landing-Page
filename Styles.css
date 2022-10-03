@@ -1,9 +1,15 @@
 /* estilos navbar */
 .logo1 {
-  width: 90px;
+  width: 110px;
   height: auto;
 }
-
+.navegacion {
+  position: sticky;
+  top: 0%;
+}
+.logo2{
+  filter: invert(80%);
+ }
 .navbar {
   background-color: #02152b;
 }
@@ -29,7 +35,6 @@
 .banner {
   background-color: #000;
   color: #fff;
-
   padding-bottom: 50px;
 }
 
