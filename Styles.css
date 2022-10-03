@@ -1,3 +1,7 @@
+body{
+  background-color: #000;
+}
+
 /* estilos navbar */
 .logo1 {
   width: 90px;
@@ -78,43 +82,91 @@ img {
 
 /* Card e info */
 
-.container {
-  background-color: #f3c332;
-  border-radius: 20%;
+.card-info {
+  display: flex;
 }
-.card_mv {
-  background: rgb(2, 21, 43);
-  background: radial-gradient(
-    circle,
-    rgba(2, 21, 43, 1) 3%,
-    rgba(85, 121, 150, 1) 50%,
-    rgba(2, 21, 43, 1) 98%
-  );
+
+.card-img1 {
+  opacity: 0.3;
+  border-radius: 10px;
 }
-body {
-  background-color: #012e46;
+
+.card-title1 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.card-text1 {
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.card-text2 {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+/* formulario */
+.formul {
+  margin: 30px;
+}
+
+.masinfo {
+  margin-bottom: 60px;
+}
+
+.title-infoempre {
+  background: #02152b;
+  color: #d4af37;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
 }
 
 /* styles cientes  */
 
-.contenedor_clientes {
+.carrete-client {
   display: flex;
   justify-content: center;
 }
-.ima_clientes {
-  width: 10%;
-  margin: 20px;
+
+#clientes1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 50%;
+  margin: 5%;
+  grid-gap: 30px;
 }
-.title_clientes {
-  display: flex;
-  justify-content: center;
+
+#clientes1 img {
   width: 100%;
-  background: #375b77;
-  opacity: .8;
+  transition: all 300ms;
+  position: relative;
 }
-.title_clientes h1{
-  color: #ffffff;
-  
+
+#clientes1 img:hover {
+  transform: scale(1.15);
+}
+.title-infoempre {
+  background: #02152b;
+  color: #d4af37;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
 }
 
 /* Styles carrusel */
@@ -122,17 +174,11 @@ body {
 .title_carrusel h1{
   color: #ffffff;
 }
-.title_carrusel{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  background: #375b77;
-  opacity: .8;
-}
+
 
 .img-wrapper {
   min-width: 100%;
-  height: 65vw;
+  height: 80vw;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -255,4 +301,3 @@ li, ul {
   margin-top: 10px;
   font-weight: lighter;
 }
-
